@@ -21,7 +21,7 @@ MySQL Community Server,
 
 [官网Mysql](http://dev.mysql.com/downloads/mysql/)
 
-下载对应版本（社区版），进行安装。（在线安装版，离线安装版，解压缩版）
+下载对应版本（社区版 MySQL Community Edition ），进行安装。（在线安装版，离线安装版，解压缩版）
 
 ### Linux 安装
 
