@@ -1,4 +1,4 @@
-# sql课程-实践教学记录
+# Sql课程 - 实践教学资料
 
 sql class Tutorial（SQL 课程资料）
 
