@@ -4,8 +4,9 @@ sql class Tutorial（SQL 课程资料）
 
 # 目录
 
-[class1](http://github.com/)
-[dataabase](http://github.com/)
+[class1](https://github.com/muc-education/sql/tree/master/class1)
+
+[dataabase](https://github.com/muc-education/sql/tree/master/database)
 
 # 参考教程
 
