@@ -9,7 +9,7 @@ sage int,
 sdept char(15));
 
 # example 2
-
+use demo;
 create table s(
 sno char(5) not null unique,
 sname char(20) unique ,

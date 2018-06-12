@@ -6,6 +6,10 @@ sql class Tutorial（SQL 课程资料）
 
 [class1](https://github.com/muc-education/sql/tree/master/class1)
 
+[class2](https://github.com/muc-education/sql/tree/master/class2)
+
+[class3](https://github.com/muc-education/sql/tree/master/class3)
+
 [dataabase](https://github.com/muc-education/sql/tree/master/database)
 
 # 参考教程

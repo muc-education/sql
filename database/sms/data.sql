@@ -24,9 +24,14 @@ insert into sims_UserType value ('admin','admin','111','admin');
 insert into sims_UserType value ('student','student','110','student');
 insert into sims_UserInfo value ('admin','admin','男','admin','admin','admin','admin','admin');
 insert into sims_UserInfo value ('admin','admin','男','admin','admin','admin','admin');
-
+select userright from sims_usertype where usertypeid = (select usertypeid  from sims_userinfo where userid ='admin');
 SELECT default_character_set_name FROM information_schema.SCHEMATA S WHERE schema_name = "sms";
 ALTER DATABASE sms CHARACTER SET utf8 COLLATE utf8_general_ci;
+ALTER DATABASE sms CONVERT TO CHARACTER SET utf8;
+# modify table character
+alter table sims_UserInfo convert to character set utf8;
+alter table sims_UserType convert to character set utf8;
+
 show VARIABLES like 'character%';
 ALTER TABLE  sims_UserType DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
 ALTER TABLE  sims_UserInfo DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
